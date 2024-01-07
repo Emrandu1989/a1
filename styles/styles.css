@@ -149,3 +149,12 @@ body{
     color: white;
     border: none;
 }
+.subscribe p{
+     color: rgba(7, 2, 17, 0.60);
+     margin-top: -20px;
+}
+.subscribe h1{
+    color:  #070211;
+    font-size: 48px;
+    margin-top: 10px;
+}
