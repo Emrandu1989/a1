@@ -1,0 +1,31 @@
+.banner{
+    background-image: url("/resources/Banner\ Image.png");
+   
+    color: white;
+    height: 600px;
+    width: 1300px;
+    background-repeat: no-repeat;
+    padding: 100px;
+    margin: auto;
+    position: relative;
+}
+.banner-content{
+    width: 500px;
+     position: absolute;
+     top: 20%;
+     left: 30%;
+}
+.banner-content h1 {
+    font-size: 70px;
+    margin-top: -30px;
+    color: #FFFFFF;
+    
+}
+.banner-content h3 {
+    font-size: 40px;
+    padding-left: 50px;
+    color: #FFFFFF;
+}
+.banner-content span{
+    padding-left: 50px;
+}
