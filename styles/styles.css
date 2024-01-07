@@ -66,6 +66,47 @@ body{
     margin-top: -50px;
 }
 
+/* coming soon section styles */
+
+.coming-soon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    align-items: center;
+    
+    
+}
+.coming-soon h2{
+    font-size: 48px;
+    color: #070211;
+    font-weight: 900;
+    margin-top: -22px;
+
+}
+.rounded-img{
+    border: 10px solid red;
+    padding: 20px;
+    border-radius: 500px;
+}
+
+.coming-soon-right img{
+    margin-top: 20px;
+}
+span{
+    color: #F00;
+    font-size: 25px;
+}
+.coming-soon h4{
+    font-size: 24px;
+    color: #F00;
+    
+}
+.coming-soon p{
+    color: rgba(7, 2, 17, 0.60);
+    font-weight: bold;
+    margin-top: -22px;
+}
+
 /* party section styles */
 
 .party{
@@ -124,6 +165,10 @@ body{
     grid-template-columns: repeat(3,1fr);
     gap:20px;
 
+}
+.portfolio-img img:hover{
+    background-color: rgb(36, 50, 50);
+    width: 450px;
 }
 
 /* subscribe section styles */
@@ -202,7 +247,7 @@ footer{
     color: #FFF;
 }
 .line{
-    color: white;
+    color: rgb(173, 28, 28);
     margin: 20px 80px;
 }
 .social{
