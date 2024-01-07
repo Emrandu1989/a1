@@ -171,6 +171,32 @@ footer{
     padding: 20px 150px;
     align-items: center;
 }
+
+.call{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.call img{
+    width: 30px;
+    height: 30px;
+}
+.image{
+    margin-left: 25px;
+}
+
+.site{
+    padding-left: 0px;
+}
+.phone{
+    padding-left: 8px;
+    
+    
+}
+.call b{
+    font-size: 22px;
+}
 .contact h6{
     font-size: 24px;
     color: #FFF;
