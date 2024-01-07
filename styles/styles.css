@@ -1,13 +1,16 @@
+/* Banner section style */
+
 .banner{
     background-image: url("/resources/Banner\ Image.png");
-   
+    text-align: center;
     color: white;
-    height: 600px;
+    height: 550px;
     width: 1300px;
     background-repeat: no-repeat;
-    padding: 100px;
+    padding-bottom: 100px;
     margin: auto;
     position: relative;
+    margin-bottom: 0px;
 }
 .banner-content{
     width: 500px;
@@ -28,4 +31,74 @@
 }
 .banner-content span{
     padding-left: 50px;
+}
+
+/* Discount section style */
+
+.discount{
+    text-align: center;
+    margin-top: -60px;
+}
+
+.discount-title{
+    
+    width: 500px;
+    margin: auto;
+}
+
+.discount h1{
+    font-size: 88px;
+    color: red;
+}
+.discount h6{
+   font-size: 25px; 
+   color: #F00;
+   margin-top: -40px;
+   
+}
+.discount h2{
+    color:#070211;
+    font-size: 48px;
+    margin-top: -50px;
+}
+
+/* party section styles */
+
+.party{
+    background-image: url("/resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 1300px;
+    margin: auto;
+    color: white;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.party img{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+
+}
+.party-content{
+    width: 400px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.party-content h1{
+   font-size: 60px;
+   color: #FFF;
+
+}
+.party p{
+    color: rgba(255, 255, 255, 0.80);;
+    
+}
+.party button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
