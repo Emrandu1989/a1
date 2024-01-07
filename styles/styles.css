@@ -2,6 +2,7 @@
 body{
     width: 1300px;
     margin: auto;
+    background-color: #FFF;
 }
 .banner{
     background-image: url("/resources/Banner\ Image.png");
@@ -157,4 +158,44 @@ body{
     color:  #070211;
     font-size: 48px;
     margin-top: 10px;
+}
+
+/* Footer section styles */
+footer{
+    background-color: #070211;
+    color: white;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+    align-items: center;
+}
+.contact h6{
+    font-size: 24px;
+    color: #FFF;
+}
+.line{
+    color: white;
+    margin: 20px 80px;
+}
+.social{
+   text-align: center;
+   margin: 50px;
+   ;
+}
+.social img{
+    margin-right: 20px;
+}
+.f-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.f-footer button{
+    padding: 10px 30px;
+    border: none;
+    
 }
