@@ -5,7 +5,7 @@ body{
     background-color: #FFF;
 }
 .banner{
-    background-image: url("resources/Banner\ Image.png");
+    background-image: url("../resources/Banner\ Image.png");
     text-align: center;
     color: white;
     height: 550px;
@@ -25,16 +25,18 @@ body{
 .banner-content h1 {
     font-size: 70px;
     margin-top: -30px;
-    color: #FFFFFF;
+    color: #f4e5e5;
     
 }
 .banner-content h3 {
     font-size: 40px;
     padding-left: 50px;
-    color: #FFFFFF;
+    color: #f4e5e5;
 }
 .banner-content span{
     padding-left: 50px;
+    font-size: 70px;
+    color: #f4e5e5;;
 }
 
 /* Discount section style */
