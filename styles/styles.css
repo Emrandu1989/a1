@@ -66,6 +66,29 @@ body{
     margin-top: -50px;
 }
 
+
+/* Time and date section styles */
+.place-time{
+    text-align: center;
+    background-color: #fae8e8;
+    padding: 100px;
+    margin-bottom: 100px;
+}
+.place-time b{
+    font-size: 25px;
+    color: #F00;
+}
+.place-time h3{
+     font-size: 22px;
+}
+.place-time button{
+    background-color: #F00;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
 /* coming soon section styles */
 
 .coming-soon{
@@ -73,6 +96,8 @@ body{
     justify-content: space-between;
     margin-bottom: 120px;
     align-items: center;
+    background-color: #fae8e8;
+    padding: 100px 50px;
     
     
 }
