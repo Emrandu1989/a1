@@ -5,7 +5,7 @@ body{
     background-color: #FFF;
 }
 .banner{
-    background-image: url("/resources/Banner\ Image.png");
+    background-image: url("resources/Banner\ Image.png");
     text-align: center;
     color: white;
     height: 550px;
