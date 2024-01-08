@@ -17,6 +17,7 @@ body{
     margin: auto;
     position: relative;
     margin-bottom: 0px;
+    border-radius: 20px;
 }
 .banner-content{
     width: 500px;
