@@ -3,6 +3,7 @@ body{
     width: 1300px;
     margin: auto;
     background-color: #FFF;
+    margin-top: 50px;
 }
 .banner{
     /* background-image: url("../resources/Banner\ Image.png"); */
@@ -222,7 +223,7 @@ span{
 }
 .party button{
     border: none;
-    background-color: black;
+    background-color: transparent;
     color: white;
     padding: 10px;
 }
